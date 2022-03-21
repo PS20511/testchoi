@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS20511-HuynhVanKiet</title>
+</head>
+<style>
+    button {
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+    }
+    input{
+        width: 73px;
+        height: 80px;
+        background-color: blue;
+        color: yellow;
+        text-align: center;
+        font-size: 20px;
+    }
+    h1{
+        text-align: center;
+        color: red;
+    }
+    h2{
+        text-align: center;
+        color: orange;
+    }
+    table {
+        margin-left: 580px;
+    }
+
+</style>
+<body>
+    <h1>MÁY TÍNH JAVASCRIPT</h1>
+    <h2>Tác giả: Huỳnh Văn kiệt</h2>
+    <table class="container" >
+        <tr>
+            <td><button onclick="ganso(7)">7</button></td>
+            <td><button onclick="ganso(8)">8</button></td>
+            <td><button onclick="ganso(9)">9</button></td>
+            <td><button onclick="ganpheptinh('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="ganso(4)">4</button></td>
+            <td><button onclick="ganso(5)">5</button></td>
+            <td><button onclick="ganso(6)">6</button></td>
+            <td><button onclick="ganpheptinh('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="ganso(1)">1</button></td>
+            <td><button onclick="ganso(2)">2</button></td>
+            <td><button onclick="ganso(3)">3</button></td>
+            <td><button onclick="ganpheptinh('x')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="ganso(':')">0</button></td>
+            <td><button onclick="lamlai()">c</button></td>
+            <td><button onclick="thuchien()">=</button></td>
+            <td><button onclick="ganpheptinh(':')">:</button></td>
+        </tr>
+        <tr>
+            <td><input id="so1"></td>
+            <td><input id="pheptinh"></td>
+            <td><input id="so2"></td>
+            <td><input id="kq"></td>
+        </tr>
+    </table>
+    <script src="js/bai3.js"></script>
+</body>
+</html>
